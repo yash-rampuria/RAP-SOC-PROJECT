@@ -29,6 +29,7 @@ Understanding the concepts of deep learning (since this is a new concept) and he
 Installation of cv2 and mediapipe gave some errors in pycharm. The seniors helped me in this and told me the steps to take
 TypeError: int type object is not subscriptable gave me a lot of problem in running the code, and then i finally understood that it comes when the webcam does not detect a face and hence a simple try except solved it.
 
+
 Calculations involved:
 As such there were no calculations involved because we used packages with inbuilt ML/DL/image processing models and we did not require to delve much into the math.
 However basic formulas like the activation function sigmoid, relu etc were taught.
