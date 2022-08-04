@@ -1,7 +1,17 @@
 # RAP-SOC-PROJECT
 Road Accident prevention project for SOC 2022
+
+
 All files including main code, model, alarm sound, model code and datsets:
 https://drive.google.com/drive/folders/1e_6JwCPRO4G5x5pu8qQxYPsNNZVzNv22?usp=sharing
+
+main.py: main code which uses model.py to alert the user using webcam image inputs
+model.py: trained CNN for classifying between open and closed eyes using keras/tensorflow
+data: folder with images of open and closed eyes
+alarm: alarm.wav is the alarm
+haar cascade files: pre trained models to detect eyes and face
+models: saved trained model with all weights
+
 Project video: 
 https://drive.google.com/file/d/1zEkYin83qKQnJZJ7wdufraReq4u3LbTH/view?usp=sharing
 Brief Description
